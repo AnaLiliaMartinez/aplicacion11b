@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera aplicacion</title>
+ 
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+ 
+<body onLoad="MM_preloadImages('imagenes/cerro1.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Atlixco de las Flores</h1>
+  </div>
+  <div data-role="main" class="ul-content">
+  <div>
+  <h1>Pueblo Mágico</h1>
+  </div>
+ <div>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:640px;height:178px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+</div>
+</div>
+
+<div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Conoce Atlixco</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Sitios de interes</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Tradiciones</h2>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Gastronomía de Atlixco</h2>
+      </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Datos personales del programador</h2>
+      </a>
+   </li>
+   </ul>
+</div>
+<iframe src="http://enmexico.about.com/od/Pueblos/a/Atlixco-De-La-Flores.htm" style="width:640px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>Atlixco<br>Pueblo Mágico</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>CONOCE ATLIXCO</h1>
+  </div>
+ <div data-role="content">
+     <p>Heroica Atlixco (en nahuatl: atl, ixtlatl, co, ‘agua, valle, lugar’‘Lugar del valle de agua’)?, también conocido como «Atlixco de las flores», es una ciudad que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica»5 debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862.</p>
+
+<p>Es conocido por su buen clima privilegiado considerado «el mejor clima del mundo», mismo que permite la amplia actividad florística, comercial y turística que le valieron haber sido llamada Atlixco de las Flores y Granero de la Nueva España, durante la época colonial.</p>
+
+<p>El último domingo de septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la sede de un festival en el que se reúnen los representantes de las once regiones culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl» o Fiesta Grande de Atlixco y que es patrimonio cultural del estado de Puebla.</p>
+
+<p>Los primeros pobladores del Valle de Atlixco fueron los teochichimecas. También fue asentamiento de xicalancas y estuvo sometido a la gran Tenochtitlán.</p>
+
+  <center><img src="imagenes/zocalo.jpg" width="70%" height="50%"></center>
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>Localización</h1>
+    <div>
+    <p>El municipio abarca un área de 293.01 km2 y se encuentra a una altitud promedio de 1840 msnm. Colinda al norte con el municipio de Tianguismanalco, al este con Santa Isabel Cholula, Ocoyucan, San Diego la Mesa Tochimiltzingo y la ciudad de Puebla; al sur con Huaquechula y Tepeojuma, y al oeste con Atzitzihuacán y Tochimilco.</p></div>
+   <div align="center"> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/atlixco_satelite2.png',1)"><img src="imagenes/atlixco_satelite.png" width="70%" height="70%" id="Image50"></a></div>
+   </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>Atlixco<br>Pueblo Mágico</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>SITIOS DE INTERÉS</h1>
+ </div>
+  <div  data-role="content" align="left">
+ <h1>Cerro de San Miguel</h1>
+ <p>También conocido como Popocatica (cerro que humea) o Macuilxochitpec (cerro de las cinco flores), es el lugar en donde se realiza la fiesta máxima de Atlixco que se lleva a cabo el último domingo de septiembre y para la que se reúnen los representantes de las once regiones culturales de Puebla. Pero aunque tu visita no coincida con la fecha, el lugar te ofrece una maravillosa vista panorámica y siempre puedes visitar la Capilla de San Miguel.</p>
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Imagen</h1><div align="center">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/cerro1.jpg',1)"><img src="imagenes/cerro.jpg" width="70%" height="50%" id="Image8"></a>
+   </div>
+   </div>
+   <h1>Capilla de la Tercer Orden</h1>
+   <p>Construida entre los siglos XVII y XVIII por la Tercera Orden Franciscana, su portada es de un estilo barroco y el trabajo es tan delicado y excepcional que parece un encaje bordado a mano. El trabajo indígena en su construcción se hace evidente al estar su fachada decorada con argamasa. En ella también podrás observar las esculturas de San Pedro, San Pablo, San Antonio de Padua y San Francisco de Asís.</p>
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Imagen</h1><div align="center">
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/tercerorden1.jpg',1)"><img src="imagenes/tercerorden.jpg" width="50%" height="60%" id="Image20"></a>
+    </div>
+   </div>
+   <h1>Exconvento del Carmen</h1>
+   <p>Construido entre 1600 y 1620 lo limita una enorme barda que abarca aproximadamente dos manzanas y es un claro ejemplo del estilo barroco de la época. Cuando fueron exclaustrados los religiosos en 1853 el lugar fue convertido en rastro, luego oficinas gubernamentales, escuela (cuando tiran su torre), cárcel y cuartel para tropas federales. Ahora es conocido como el Centro Cultural del Carmen y alberga un pequeño museo arqueológico.</p>
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+   <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/convencarmen1.jpg',1)"><img src="imagenes/convencarmen.jpg" width="70%" height="60%" id="Image16"></a>
+   </center>
+   </div>
+   <h1>Convento de San Francisco</h1>
+   <p>El ex-convento franciscano de Santa María de Jesús se ubica en el cerro de San Miguel, lugar ceremonial donde se celebra el Huey Atlixcayotl. Data del siglo XVI. Construido en dos periodos, el primero abarca de 1538 a 1550, el segundo de 1560 a 1620. Perteneció a los franciscanos, dedicado a evangelizar a los indígenas de la región.</p>
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <div> <center>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/sanfrancisco1.jpg',1)"><img src="imagenes/sanfrancisco.jpg" width="70%" height="60%" id="Image17"></a>
+    </center></div>
+    </div>
+   <h1>Templo de la Merced</h1>
+   <p>La fachada de la iglesia magnífica obra maestra del barroco Atlixquense de principios del S. XVIII. Con dos cuerpos, el primero con cuatro columnas salomónicas que encuadran dos nichos. Al centro la puerta en forma de arco trolobulado con bella ornamentación que incluyen palmeras y cabezas de Ángeles en las enjutas; en la puerta un Espíritu Santo a arriba en medio de follajes de vides y racimos el Niño Jesús.</p>
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+     <center> <img src="imagenes/la_merced.jpg" width="70%" height="50%"></center></div>
+   <h1>Centro de pesca deportiva Amatzcalli</h1>
+   <p>Amatzcalli somos un parque natural en donde promovemos la pesca deportiva, donde además de nuestro lago, contamos con instalaciones para que toda la familia pase un día de diversión y convivencia. </p>
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+        <center> <img src="imagenes/amatzcalli.jpg" width="90%" height="40%"></center></div>
+   <h1>Cabrera</h1>
+   <p>Somos un grupo de viveristas que formamos  la primera comercializadora en el Estado  de Puebla en su ramo, iniciando labores el 24 de Noviembre del 2006, dedicados al cultivo, producción y comercialización  de plantas ornamentales.</p>
+   <p>cuentan con una extensa variedad de plantas,  de sombra, 1/2 sombra y sol; Así como diretentes clases de pinos, palmeras, árboles frutales y diferentes hortalizas para los que nos gusta ocupar de la huerta todo para cocinar. </p>
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/cabrera1.jpg',1)"><img src="imagenes/cabrera.jpg" width="70%" height="60%" id="Image18"></a></center>
+    </div>
+<h1>Parroquia de Santa María de la Natividad</h1>
+<p>Este majestuoso templo parroquial renacimiento español, se comenzó a construir a principios en el año 1644 por orden del excelentísimo Sr. Don Juan de Palafox y Mendoza, con dos valiosísimos altares churriguerescos con una decoración magnífica además cuenta con las valiosas pinturas de el Vía Crucis de Cabrera y cuadros de Berruecos y Morales.</p>
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <center><img src="imagenes/natividad.jpg" width="50%" height="50%"></center></div>
+   
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>Atlixco<br>Pueblo Mágico</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>TRADICIONES</h1>
+ </div>
+ <div data-role="content" align="center">
+  <div data-role="collapsible" data-content-theme="false">
+ <h1> Atlixcáyotl</h1>
+ <p>El Huey Atlixcáyotl o reunión de los pueblos, es la festividad más importante de Atlixco. Se lleva a cabo una vez al año durante el último domingo de septiembre. Esta tradición se asemeja en parte a la fiesta de la Guelaguetza que se realiza en Oaxaca, ya que convoca a las diferentes etnias de Puebla en la cima del cerro de San Miguel, donde se localiza una ermita en torno a la cual se efectúan danzas y bailes típicos de las diferentes regiones para invocar a la lluvia y obtener buenas cosechas.</p>
+ <center><img src="imagenes/Atlixcayotl.JPG" width="70%" height="60%"></center></div>
+ 
+  <div data-role="collapsible" data-content-theme="false">
+<h1>Atlixcayotontli</h1>
+<p> (la fiesta de la familia atlixquense) en la Plazuela de la Danza del cerro de San Miguel; hay que destacar que esta fiesta es la versión corta del Huey Atlixcayotl misma que se realiza el último Domingo del mes de septiembre.</p>
+
+<p>El Atlixcayotontli se realiza año con año desde hace 49 años y es organizada principalmente por los fundadores del Huey Atlixcayotontli denominados como “Atlixcayotontli AC.”</p>
+<p>Se realiza el segundo domingo del mes de septiembre.</p>
+<center><img src="imagenes/atlixco1.JPG" width="70%" height="50%"></center>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Villa Iluminada</h1>
+<p>Como parte del impulso turístico que se pretende hacer en el municipio en todas las áreas, en este caso del turismo; siendo la Villa Iluminada uno de los eventos más fuertes en el año que logra atraer una gran afluencia de visitantes; así como una derrama económica considerable, es por ello dar la correcta difusión y promoción a nivel estatal y nacional.</p>
+ 
+<p>Villa Iluminada” es una ruta urbana que resalta la belleza arquitectónica de la ciudad de Atlixco, embelleciéndola con luces coloridas de variantes tonos.</p>
+<center><img src="imagenes/villa1.jpg" width="70%" height="50%"></center>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Tapetes Monumentales</h1>
+<p>comienza la fiesta en Atlixco con la inauguración del tapete monumental alusivo al 50 aniversario del Atlixcayot, 42 mil 922 macetas de 6 pulgadas conforman el tapete monumental, mismo que está segmentado en cuatro secciones.</p>
+<center><img src="imagenes/tapete.jpg" width="70%" height="60%"></center></div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Fiestas de Reyes</h1>
+<p>Cabe destacar que son 18 años de realizar el desfile, gracias a la participación de empresarios, voluntarios y autoridades municipales en turno, tradición que contribuye a dibujar miles de sonrisas en los pequeños.</p>
+<center><img src="imagenes/fiesta.jpg" width="70%" height="60%"></center></div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Desfile de Calaveras</h1>
+<p>El desfile tiene la finalidad de respetar y conservar la tradición del día de muertos y dejar a un lado el famoso "Halloween" o "Noche de brujas".</p>
+<p>Indicó que se realizarán actividades gratuitas de diferentes expresiones artísticas, lo que permitirá mantener vivas estas tradiciones e incentivar el turismo.</p>
+
+<p>La Ruta de las Catrinas será desde la Avenida 8 Oriente y hasta el panteón, que contará con 30 catrinas grandes y más de 50 chicas, para que se realice un circuito peatonal.</p>
+
+<p>Por último, estimó que 65% de sus visitantes sean de la ciudad de Puebla y el resto de otros municipios conurbados, incluidos extranjeros. </p>
+<center><img src="imagenes/desfile.jpg" width="70%" height="60%"></center></div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Feria de la Nochebuena</h1>
+<p>Actualmente en Puebla se producen anualmente más de 1 millón 300 mil plantas de Nochebuena en 25 hectáreas, principalmente en el municipio de Atlixco, de acuerdo con datos de la Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación (SAGARPA).</p>
+
+<p>En Atlixco, existen a la fecha 52 productores de Nochebuenas en una superficie de 25 hectáreas, que generan 800 empleos directos, siendo el sustento de poco más de 800 familias. Esta actividad empezó prácticamente hace 20 años dentro del estado y producían aproximadamente 6 mil plantas.</p>
+<center><img src="imagenes/noche.jpg" width="70%" height="60%"></center></div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Feria de la Cecina</h1>
+<p>El municipio de Atlixco será sede de la Feria de la Cecina, por lo que se esperan miles de visitantes, quienes año con año se dan cita para probar este platillo en los diversos stands y restaurantes que participan en el evento.
+La cecina proviene de la parte más suave de la res como es el lomo, pieza negra, bola y aguayón y su producción es una tradición de los atlixquenses, que se practica desde el siglo pasado.</p>
+<center><img src="imagenes/cecina.jpg" width="70%" height="50%"></center></div>
+<br><br>
+ </div>
+ <div align="center"><iframe width="50%" height="50%" src="https://www.youtube.com/embed/py9RyqZfS7Y" frameborder="0" allowfullscreen></iframe></div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>Atlixco<br>Pueblo Mágico</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>GASTRONOMÍA DE ATLIXCO</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h1>Cecina</h1>
+<p> Un platillo por el que después de probarlo querrás volver Atlixco, la tradicional cecina de Atlixco.</p>
+
+<p>Desde hace ya tiempo, nuestra ciudad se ha dado a conocer por la exquisita cecina que se puede encontrar por los pasillos del mercado y en algunos restaurantes de la ciudad. Esta forma de preparar la carne de res posee el sabor de Atlixco, que por su delgadez es perfecta para servir en una tortilla acompañada de aguacate, queso, crema y una rica salsa.</p>
+     <center><img src="imagenes/cecina1.jpg" width="50%" height="40%"></center>
+<br>
+<h1>Chiles en Nogada</h1>
+<p>Platillo de temporada que envuelve parte de la historia y triunfo de nuestro México.</p>
+
+<p>Representativo del estado de Puebla, tiene su origen en los tiempos de Independencia en homenaje a Agustín de Iturbide. Los colores de la bandera se aprecian con armonía y perfección en este manjar por los meses de julio y agosto, ya que sus ingredientes se logran en esta temporada.</p>
+     <center><img src="imagenes/chile.jpg" width="50%" height="40%"></center>
+<br>
+<h1>Barbacoa</h1>
+<p>El estilo de carne con un sabor inigualable que te hará chupar los dedos.</p>
+
+<p>La carne de borrego hecha en barbacoa es uno de los estilos de popularidad en el centro del país. Elaborada dentro de la tierra con hojas de maguey alcanza su mejor punto en sabor; lo puedes preparar en taco o simplemente con una rica salsa y aguacate. No olvides el consomé que se produce al cocinar la barbacoa.</p>
+     <center><img src="imagenes/barbacoa.png" width="50%" height="50%"></center>
+     <h1>Mole Poblano</h1>
+     <p>El platillo por excelencia en fiestas coloniales que muestra la creatividad de las familias poblanas</p>
+
+<p>Delicioso mole dulce representativo de Puebla, está hecho a base de varios chiles y condimentos, agregando una caricia de chocolate. Su consistencia espesa se acompaña comúnmente de una pieza de guajolote o pollo y se agrada a la vista decorándolo con ajonjolí tostado.</p>
+ <center><img src="imagenes/mole.jpg" width="50%" height="40%"></center>
+ <h1>Mole de Panza</h1>
+ <p>El platillo por excelencia en fiestas coloniales que muestra la creatividad de las familias poblanas</p>
+
+<p>Puebla se destaca, entre otras cosas, por la variedad de moles que ofrece, siendo el mole de panza uno de ellos. Este caldoso plato hecho con panza se puede encontrar en negocios de antojitos mexicanos o fondas de nuestra bella ciudad.</p>
+<img src="imagenes/panza.png" width="70%" height="50%">
+<h1>Pozole blanco</h1>
+<p>El gusto de disfrutar el sabor original del maíz armonizado con esencias herbales</p>
+
+<p>El pozole blanco es un platillo preparado a base de granos de maíz cocidos con diferentes hierbas de olor; una vez que es servido se le agrega carne deshebrada, lechuga, limón, cebolla, orégano y chile en polvo para complacerse de su sabor, además de combinar los colores patrios que hacen referencia a nuestras tradiciones mexicanas.</p>
+<img src="imagenes/pozole.jpg" width="70%" height="60%">
+
+
+ </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>Atlixco<br>Pueblo Mágico</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+ </div>
+
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>DATOS PERSONALES</h1>
+ </div>
+ <div data-role="content" align="center">
+<div><p>Nombre: Ana Lilia Martínez Poblano</p>
+<p>Dirección: 4 sur #2315 Col.Francisco I.Madero</p>
+<p>Escuela: C.B.T.is no.16</p>
+<p>Grado y grupo: 4 "G"</p></div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>Atlixco<br>Pueblo Mágico</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+ </div>
+ 
+</div>
+</body>
+ </html>
